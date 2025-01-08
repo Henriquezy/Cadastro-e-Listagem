@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <link rel="stylesheet" href="Cadastro.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cadastro">
+        <div class="header">
+            <b class="titulo">Cadastro Produtos</b>
+            <b class="subtitulo">favor, preencha os dados abaixo para o cadastro do produto:</b>
+        </div>
+
+        <div class="formulario">
+            <div class="container-input">
+                <div>
+                    <input type="text" id="nomeProduto" placeholder="Nome">
+                </div>
+                <div>
+                    <input type="text" id="descricaoProduto" placeholder="Descrição">
+                </div>
+                <div>
+                    <input type="text" id="valorProduto" placeholder="00,00$">
+                </div>
+            </div>
+
+            <div class="div-radio" href="Henrique Andrade Couto/Listagem/Listagem.html">
+                Está disponivel para venda?
+                <div>Sim <input type="radio"  name="option" value="sim" id="sim"></div>
+                <div>Não <input type="radio" name="option" value="nao" id="nao"></div>
+            </div>
+        </div>
+
+        <button onclick="redirectionListagem()">
+            <b>Cadastrar</b>
+        </button>
+    </div>
+
+    <div class="footer">
+        Por Henrique Andrade Couto, com HTML/CSS e JavaScript - 07/01/2024
+    </div>
+</body>
+<script src="Cadastro.js"></script>
+</html>

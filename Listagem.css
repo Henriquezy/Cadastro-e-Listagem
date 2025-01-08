@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(38, 42, 49);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 30px;
+  }
+
+  .titulo{
+    font-size: 1.3rem;
+  }
+
+  .table-container {
+    margin: 0 auto;
+    overflow-x: auto;
+
+    table {
+      width: 500px;
+      border-collapse: collapse;
+      margin: 0 auto;
+      background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255, 0.18);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+  
+    thead {
+      background-color: #425a72;
+    }
+  
+    th, td {
+      border: solid 1px #425a72;
+      text-align: left;
+      padding: 5px;
+    }
+  
+    th {
+      font-weight: bold;
+    }
+  }
+
+  button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(38, 42, 49);
+}

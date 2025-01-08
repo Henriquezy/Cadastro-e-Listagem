@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(38, 42, 49);
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 90vh;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 400px;
+    gap: 30px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        .titulo{
+            font-size: 1.2rem;
+        }
+        .subtitulo{
+            font-size: 0.8rem;
+            width: 200px;
+            text-align: center;
+        }
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .container-input{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            input{
+                border: 0;
+                width: 200px;
+                padding: 3px;
+                border-radius: 3px;
+                color: black;
+            }
+            .div-radio{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+
+    button{
+        height: 35px;
+        width: 150px;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(38, 42, 49);
+    }
+}
+
+.footer{
+    margin: 25px;
+    font-size: 0.8rem;
+    width: 250px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <link rel="stylesheet" href="Listagem.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="carregarPagina()">
+  <div class="titulo">
+    <b>Listagem de Produtos</b>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Descrição</th>
+          <th>Valor</th>
+          <th>vende?</th>
+        </tr>
+      </thead>
+    </table>
+
+    <table>
+      <tbody id="product-list">
+      </tbody>
+    </table>
+  </div>
+
+  <div class="div-button">
+    <button onclick="redirectionCadastro()">
+      <b>Cadastrar novo produto</b>
+    </button>
+  </div>
+</body>
+<script src="Listagem.js"></script>
+</html>
+
